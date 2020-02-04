@@ -14,7 +14,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='django-rest-params',
-    version='1.0.2',
+    version='1.1.0',
 
     description='Function decorator for Django REST Framework for specifying and constraining API parameters.',
     long_description=long_description,
@@ -40,6 +40,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
     ],
 
     keywords='rest,django,api,params,parameters,djangorestframework,decorator',
